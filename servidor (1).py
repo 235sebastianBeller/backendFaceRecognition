@@ -45,6 +45,8 @@ def normalize_matrix(matrix):
 
 
 
+
+
 def get_model():
     return load_model("./modelo14.h5") if model is None else model
 @app.route('/upload', methods=['POST'])
