@@ -9,7 +9,7 @@ from keras_facenet import FaceNet
 import os
 labels=['Agus','Ale', 'Noni', 'Sebas']
 app = Flask(__name__)
-CORS(app) 
+CORS(app, origins=["http://localhost:8100"])
 
 model=None
 
