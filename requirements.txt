@@ -1,0 +1,9 @@
+Flask==3.1.0
+Flask-Cors==5.0.0
+opencv-python-headless==4.10.0.84
+numpy==2.0.2
+tensorflow==2.18.0
+keras==3.7.0
+keras-facenet==0.3.2
+gunicorn==23.0.0
+
