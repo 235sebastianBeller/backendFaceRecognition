@@ -6,4 +6,5 @@ tensorflow==2.18.0
 keras==3.7.0
 keras-facenet==0.3.2
 gunicorn==23.0.0
+scipy==1.14.1
 
